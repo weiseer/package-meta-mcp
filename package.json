@@ -1,19 +1,41 @@
 {
   "name": "@weiseer/package-meta-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "mcpName": "io.github.weiseer/package-meta",
   "description": "npm/PyPI/Cargo package metadata + downloads + maintainer health.",
   "type": "module",
-  "bin": { "package-meta-mcp": "./index.js" },
+  "bin": {
+    "package-meta-mcp": "./index.js"
+  },
   "main": "./index.js",
-  "files": ["index.js", "package_meta.json", "README.md"],
-  "scripts": { "start": "node index.js" },
-  "keywords": ["mcp", "model-context-protocol", "ai-agent", "weiseer"],
+  "files": [
+    "index.js",
+    "package_meta.json",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agent",
+    "weiseer"
+  ],
   "author": "weiseer <wei@weiseer.com>",
   "license": "Apache-2.0",
-  "repository": { "type": "git", "url": "https://github.com/weiseer/package-meta-mcp.git" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weiseer/package-meta-mcp.git"
+  },
   "homepage": "https://github.com/weiseer/package-meta-mcp#readme",
-  "bugs": { "url": "https://github.com/weiseer/package-meta-mcp/issues" },
-  "engines": { "node": ">=18.0.0" },
-  "dependencies": { "@modelcontextprotocol/sdk": "^0.6.0" }
+  "bugs": {
+    "url": "https://github.com/weiseer/package-meta-mcp/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  }
 }
